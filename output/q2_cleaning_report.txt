@@ -1,0 +1,44 @@
+DATA CLEANING REPORT
+====================
+
+Rows before cleaning: (196313, 18)
+
+Missing Data Handling:
+Station Name                       0
+Measurement Timestamp              0
+Air Temperature                   75
+Wet Bulb Temperature           75947
+Humidity                           0
+Rain Intensity                 75947
+Interval Rain                      0
+Total Rain                     75947
+Precipitation Type             75947
+Wind Direction                     0
+Wind Speed                         0
+Maximum Wind Speed                 0
+Barometric Pressure              146
+Solar Radiation                    0
+Heading                        75947
+Battery Life                       0
+Measurement Timestamp Label        0
+Measurement ID                     0
+dtype: int64
+
+Method: Drop
+
+Number of Rows handeled:
+76022
+
+Outlier Handling:
+Method: Cappped at Q - 3 * IQR
+Number of outliers handled:
+13
+Column: Solar Radiation
+
+Duplicates Removed: 0
+
+Data Type Conversions:
+Measurement Timestamp: Converted to datetime64[ns]
+Measurement Timestamp Label: Converted to datetime64[ns]
+
+Rows after cleaning: (120278, 18)
