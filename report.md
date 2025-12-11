@@ -32,6 +32,14 @@ The pattersn of Total Rain Total Rain, Air Temp, Humidity, and Max Wind Speed ar
 
 ##Model Results
 
+```markdown
+| Model | R² | RMSE | 
+  |-------|----|----|
+  | Linear Regression | 0.3027 | 173.90 |
+  | XGBoost | 0.6046 | 130.95 |
+  | Random Forest | 0.5656 | 137.26 |
+```
+
 ##Time Series Patterns
 
 ##Limitations
