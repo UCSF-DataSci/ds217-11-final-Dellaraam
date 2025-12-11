@@ -10,7 +10,7 @@ The data started with many missing peices of data and the timestamp was not reco
 
 ###Phase 3
 
-All the rows with missing data were dropped as that was the most conveintant way od dealing with that large amount of data without potentially skewing any visualizations. The outliers seen in the Solier Raditation section was removed using "Q - 3 * IQR". 
+All the rows with missing data were dropped as that was the most conveintant way od dealing with that large amount of data without potentially skewing any visualizations. The outliers seen in the Solier Raditation section was removed using "Q - 3 * IQR". By the end we had 120,028 records.
 
 ###Phase 4
 
