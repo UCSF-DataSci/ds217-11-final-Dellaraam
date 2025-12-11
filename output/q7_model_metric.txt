@@ -1,0 +1,11 @@
+=== Linear Regression Results ===
+Training - R²: 0.2739, RMSE: 175.79
+Test - R²: -2.2165, RMSE: 123.59
+
+=== XGBoost Results ===
+Training - R²: 0.5543, RMSE: 137.73
+Test - R²: 0.0298
+
+=== Random Forest Results ===
+Training - R²: 0.5026, RMSE: 145.48
+Test - R²: 0.0358
