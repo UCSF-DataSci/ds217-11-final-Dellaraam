@@ -1,0 +1,10 @@
+Patterns
+==========
+
+Temporal Trends
+--Spikes in total rain occur during the begining and end of the year
+--Consistant peaks in avarege rain per day and per month
+--Less rain in 2024 and 2025
+
+Correlations
+--There are no strong correlations between Air tempurature and Humidity,Wind Speed, or Maximum Wind Speed
