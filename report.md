@@ -12,9 +12,11 @@ All the rows with missing data were dropped as that was the most conveintant way
 
 ###Phase 4
 
-The Temporal features seen in Total Rain Total Rain, Air Temp, Humidity, and Max Wind Speed
+The Temporal features seen in Total Rain Total Rain, Air Temp, Humidity, and Max Wind Speed 
 
 `![Figure 1-3: A. Avarege Total Rain, Air Temp, Humidity, and Max Wind Speed over the years, B. Avarege Monthly,Daily,Yearly Seasonal Patterns in Total Rain, C. Correlation Matrix Total Rain, Air Temp, Humidity, and Max Wind Speed ](output/q5_patterns.png)`
 
 
+##Visualizations
 
+![Figure 1: Initial Data Exploration](output/q1_visualizations.png)
