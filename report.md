@@ -22,6 +22,8 @@ The Temporal features seen in Total Rain Total Rain, Air Temp, Humidity, and Max
 
 ![Figure 1: Initial Data Exploration](output/q1_visualizations.png)
 
+`![Figure 1-3: A. Avarege Total Rain, Air Temp, Humidity, and Max Wind Speed over the years, B. Avarege Monthly,Daily,Yearly Seasonal Patterns in Total Rain, C. Correlation Matrix Total Rain, Air Temp, Humidity, and Max Wind Speed ](output/q5_patterns.png)`
+
 ##Model Results
 
 ##Time Series Patterns
