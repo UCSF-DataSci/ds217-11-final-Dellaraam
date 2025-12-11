@@ -32,6 +32,8 @@ The patterns of Total Rain, Air Temp, Humidity, and Max Wind Speed are shown sea
 
 ##Model Results
 
+We built three predictive models with three different models to find what the best preforming. The performance metrics demonstrate that XGBoost the best when compared to other predictive models using Linear Regression and Random Forest Regression. 
+
 ```markdown
 | Model | R² | RMSE | 
   |-------|----|----|
