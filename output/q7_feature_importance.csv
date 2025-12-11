@@ -1,12 +1,12 @@
 ,feature,xgb_importance
-0,Air Temperature,0.33200467
-9,Heading,0.28375623
-1,Wet Bulb Temperature,0.14005709
-7,Barometric Pressure,0.06922616
-8,Solar Radiation,0.035589814
-2,Humidity,0.034922343
-5,Wind Speed,0.029160934
-6,Maximum Wind Speed,0.026941989
-10,Battery Life,0.021433128
-4,Interval Rain,0.013745667
-3,Rain Intensity,0.013161901
+0,Air Temperature,0.3400808
+9,Heading,0.22871535
+1,Wet Bulb Temperature,0.15237233
+7,Barometric Pressure,0.08840602
+8,Solar Radiation,0.040803656
+2,Humidity,0.03837793
+5,Wind Speed,0.033359807
+6,Maximum Wind Speed,0.03259219
+4,Interval Rain,0.01955814
+10,Battery Life,0.017344816
+3,Rain Intensity,0.008388993
