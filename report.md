@@ -43,3 +43,5 @@ The pattersn of Total Rain Total Rain, Air Temp, Humidity, and Max Wind Speed ar
 ##Time Series Patterns
 
 ##Limitations
+
+We did not have data for all days or months of the year after droping rows leaving some holes in our analysis.
