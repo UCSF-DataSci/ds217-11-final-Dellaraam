@@ -14,7 +14,7 @@ All the rows with missing data were dropped as that was the most conveintant way
 
 ###Phase 4
 
-The pattersn of Total Rain Total Rain, Air Temp, Humidity, and Max Wind Speed are shown seasonally in a line graph and their correlations as a heatmap. During the winter months the Total Rain Peaks this is not a patterns repeated by the other variables save slight peaks in Air Temperature. These observations are confirmed in the heatmap.
+The patterns of Total Rain, Air Temp, Humidity, and Max Wind Speed are shown seasonally in a line graph and their correlations as a heatmap. During the winter months the Total Rain Peaks this is not a patterns repeated by the other variables save slight peaks in Air Temperature. These observations are confirmed in the heatmap.
 
 `![Figure 1-3: A. Avarege Total Rain, Air Temp, Humidity, and Max Wind Speed over the years, B. Avarege Monthly,Daily,Yearly Seasonal Patterns in Total Rain, C. Correlation Matrix Total Rain, Air Temp, Humidity, and Max Wind Speed ](output/q5_patterns.png)`
 
