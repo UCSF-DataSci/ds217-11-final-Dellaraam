@@ -8,19 +8,32 @@ The dataset analyized in this project is called "Chicago Beach Weather Sensors D
 
 The data started with many missing peices of data and the timestamp was not recorded in datetime yet. 
 
+- 75,947 missing data points in Heading, Total Rain, Rain Intensity, Wet Bulb Temperature and Percipitation Type
+- 75 missing data points in Air Temperature 
+- 146 missing data points in Barometric Pressure 
+
 ###Phase 3
 
 All the rows with missing data were dropped as that was the most conveintant way od dealing with that large amount of data without potentially skewing any visualizations. The outliers seen in the Solier Raditation section was removed using "Q - 3 * IQR". By the end there were 120,028 records.
 
 ###Phase 4
 
-The patterns of Total Rain, Air Temp, Humidity, and Max Wind Speed are shown seasonally in a line graph and their correlations as a heatmap. During the winter months the Total Rain Peaks this is not a patterns repeated by the other variables save slight peaks in Air Temperature. These observations are confirmed in the heatmap.
+`Measurement Timestamp` set as Index and parsed to extract temporal data. 
 
-`![Figure 1-3: A. Avarege Total Rain, Air Temp, Humidity, and Max Wind Speed over the years, B. Avarege Monthly,Daily,Yearly Seasonal Patterns in Total Rain, C. Correlation Matrix Total Rain, Air Temp, Humidity, and Max Wind Speed ](output/q5_patterns.png)`
+- `hour`: Hour in the day (0-23)
+- `day_name`:  Day of the month (1-31)
+- `month` : Month in the year
 
 ###Phase 5
 
+- `Wind Speed Ratio`: Ratio of `Wind Speed` and `Maximum Wind Speed`
+- `air_temp_rolling_24h`: 24th Rolling Air Temperature data
+
 ###Phase 6
+
+The patterns of Total Rain, Air Temp, Humidity, and Max Wind Speed are shown seasonally in a line graph and their correlations as a heatmap. During the winter months the Total Rain Peaks this is not a patterns repeated by the other variables save slight peaks in Air Temperature. These observations are confirmed in the heatmap.
+
+![Figure 1-3: A. Avarege Total Rain, Air Temp, Humidity, and Max Wind Speed over the years, B. Avarege Monthly,Daily,Yearly Seasonal Patterns in Total Rain, C. Correlation Matrix Total Rain, Air Temp, Humidity, and Max Wind Speed ](output/q5_patterns.png)
 
 ##Phase 7 
 
