@@ -1,6 +1,6 @@
 ##Summary 
 
-The dataset analyized in this project is called "Weather Sensors Dataset" with more than 195,000 records between 2015 and 2015. The goal of this analysis is to contend with the data's discrepencies and the challanges they present and find key take away's about Real Time Weather sensor reading's from Lake Michigan's beachs. For the purposes of this analysis we only focused on patterns and correlations relating to rain volume. The biggest take awats being Total Rain was often the highest in the winter months between the end of the year and the begining of the year and Humidity and Maximum Wind Speed did not have a strong correlation with Total Rain while Air Temperature has a moderate correlation. The XGBoost model proformed best with the data with a test R²: 0.6046, RMSE: 130.95 demonstrating that Total Rain can be predicted with good accuracy from temporal features, rolling windows of predictor variables, and weather variables.
+The dataset analyized in this project is called "Chicago Beach Weather Sensors Dataset" with more than 195,000 records between 2015 and 2015. The goal of this analysis is to contend with the data's discrepencies and the challanges they present and find key take away's about Real Time Weather sensor reading's from Lake Michigan's beachs. For the purposes of this analysis we only focused on patterns and correlations relating to rain volume. The biggest take awats being Total Rain was often the highest in the winter months between the end of the year and the begining of the year and Humidity and Maximum Wind Speed did not have a strong correlation with Total Rain while Air Temperature has a moderate correlation. The XGBoost model proformed best with the data with a test R²: 0.6046, RMSE: 130.95 demonstrating that Total Rain can be predicted with good accuracy from temporal features, rolling windows of predictor variables, and weather variables.
 
 ##Phase Findings
 
@@ -10,7 +10,7 @@ The data started with many missing peices of data and the timestamp was not reco
 
 ###Phase 3
 
-All the rows with missing data were dropped as that was the most conveintant way od dealing with that large amount of data without potentially skewing any visualizations. The outliers seen in the Solier Raditation section was removed using "Q - 3 * IQR". By the end we had 120,028 records.
+All the rows with missing data were dropped as that was the most conveintant way od dealing with that large amount of data without potentially skewing any visualizations. The outliers seen in the Solier Raditation section was removed using "Q - 3 * IQR". By the end there were 120,028 records.
 
 ###Phase 4
 
@@ -28,7 +28,7 @@ The patterns of Total Rain, Air Temp, Humidity, and Max Wind Speed are shown sea
 
 ![Figure 1: Initial Data Exploration](output/q1_visualizations.png)
 
-`![Figure 1-3: A. Avarege Total Rain, Air Temp, Humidity, and Max Wind Speed over the years, B. Avarege Monthly,Daily,Yearly Seasonal Patterns in Total Rain, C. Correlation Matrix Total Rain, Air Temp, Humidity, and Max Wind Speed ](output/q5_patterns.png)`
+![Figure 1-3: A. Avarege Total Rain, Air Temp, Humidity, and Max Wind Speed over the years, B. Avarege Monthly,Daily,Yearly Seasonal Patterns in Total Rain, C. Correlation Matrix Total Rain, Air Temp, Humidity, and Max Wind Speed ](output/q5_patterns.png)
 
 ##Model Results
 
